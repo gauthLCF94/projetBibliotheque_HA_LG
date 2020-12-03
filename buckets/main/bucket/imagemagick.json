@@ -1,0 +1,49 @@
+{
+    "version": "7.0.10-45",
+    "description": "Create, edit, compose, and convert 200+ of bitmap images formats.",
+    "homepage": "https://imagemagick.org/",
+    "license": "ImageMagick",
+    "depends": "ffmpeg",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.imagemagick.org/download/binaries/ImageMagick-7.0.10-45-portable-Q16-x64.zip",
+            "hash": "71e832d88126d5a61f0fdeb7805231840493d7569798c035ad39d10ae70ff3bb"
+        },
+        "32bit": {
+            "url": "https://www.imagemagick.org/download/binaries/ImageMagick-7.0.10-45-portable-Q16-x86.zip",
+            "hash": "574c98333284f1bca376201de77ff0382bf5840c012581c74e4786103f8dc988"
+        }
+    },
+    "bin": [
+        "compare.exe",
+        "composite.exe",
+        "conjure.exe",
+        "convert.exe",
+        [
+            "convert.exe",
+            "imconvert"
+        ],
+        "dcraw.exe",
+        "identify.exe",
+        "IMDisplay.exe",
+        "magick.exe",
+        "mogrify.exe",
+        "montage.exe",
+        "stream.exe"
+    ],
+    "checkver": "The current release is ImageMagick <a.*?>([0-9\\.p-]+)</a>",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.imagemagick.org/download/binaries/ImageMagick-$version-portable-Q16-x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.imagemagick.org/download/binaries/ImageMagick-$version-portable-Q16-x86.zip"
+            }
+        },
+        "hash": {
+            "mode": "rdf",
+            "url": "https://www.imagemagick.org/download/binaries/digest.rdf"
+        }
+    }
+}

@@ -1,0 +1,3 @@
+root: C:\Users\gauth\Cours\M1\DevLogAv\02_projet\persist\nvm\nodejs
+arch: 64
+proxy: none

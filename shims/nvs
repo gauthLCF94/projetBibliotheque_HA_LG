@@ -1,0 +1,2 @@
+#!/bin/sh
+powershell.exe -noprofile -ex unrestricted "C:\Users\gauth\Cours\M1\DevLogAv\02_projet\apps\nvs\current\nvs.ps1"  "$@"

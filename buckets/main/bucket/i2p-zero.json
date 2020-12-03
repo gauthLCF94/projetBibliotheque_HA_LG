@@ -1,0 +1,28 @@
+{
+    "version": "1.19",
+    "description": "Zero dependency, small footprint, cross-platform I2P Java Router with simple tunnel/socks controller and SAM interface",
+    "homepage": "https://github.com/i2p-zero/i2p-zero",
+    "license": "BSD-3-Clause|Apache-2.0",
+    "url": "https://github.com/i2p-zero/i2p-zero/releases/download/v1.19/i2p-zero-win.v1.19.zip",
+    "hash": "09f7041b68e34c66cdd786151910e662beaeee7cde45ee6047adf67fc2e1d283",
+    "extract_dir": "i2p-zero-win.v1.19\\router",
+    "bin": [
+        [
+            "bin\\launch.bat",
+            "i2p-zero"
+        ]
+    ],
+    "persist": [
+        "conf",
+        "i2p.base"
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/i2p-zero/i2p-zero/releases/download/v$version/i2p-zero-win.v$version.zip",
+        "hash": {
+            "url": "https://github.com/i2p-zero/i2p-zero/releases/tag/v$version",
+            "regex": "(?sm)Windows<.*?<code>$sha256"
+        },
+        "extract_dir": "i2p-zero-win.v$version\\router"
+    }
+}

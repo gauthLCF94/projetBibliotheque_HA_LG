@@ -1,0 +1,15 @@
+{
+    "version": "2.56.5",
+    "description": "A documentation generation tool for API reference and Markdown files",
+    "homepage": "https://dotnet.github.io/docfx/",
+    "license": "MIT",
+    "url": "https://github.com/dotnet/docfx/releases/download/v2.56.5/docfx.zip",
+    "hash": "6b7bd06b1edbb922c020911551504a80c6ecba6cda93dbd882a5c78ad55cfbee",
+    "bin": "docfx.exe",
+    "checkver": {
+        "github": "https://github.com/dotnet/docfx"
+    },
+    "autoupdate": {
+        "url": "https://github.com/dotnet/docfx/releases/download/v$version/docfx.zip"
+    }
+}

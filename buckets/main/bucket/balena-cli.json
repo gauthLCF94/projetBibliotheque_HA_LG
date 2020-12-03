@@ -1,0 +1,22 @@
+{
+    "version": "12.29.0",
+    "description": "Official balena CLI for interacting with balenaCloud and balena API.",
+    "homepage": "https://github.com/balena-io/balena-cli",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/balena-io/balena-cli/releases/download/v12.29.0/balena-cli-v12.29.0-windows-x64-standalone.zip",
+            "hash": "29ebe5b6829de35d0fe280e0145ee88ccd89635166cd16dc63670bba5bc90335"
+        }
+    },
+    "extract_dir": "balena-cli",
+    "bin": "balena.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/balena-io/balena-cli/releases/download/v$version/balena-cli-v$version-windows-x64-standalone.zip"
+            }
+        }
+    }
+}

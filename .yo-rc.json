@@ -1,0 +1,43 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.projetbiblio.halg.com",
+      "nativeLanguage": "fr"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "monolith",
+    "baseName": "projetBibliotheque_HA_LG",
+    "packageName": "com.projetbiblio.halg.com",
+    "packageFolder": "com/projetbiblio/halg/com",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjI2NTJkY2QxNzA5YjNhZDVlOGIyMGRhMDcyNzc3ZTQwMzYxZjg5ZDY4MDYzMDBlOWE5ZmQ4NzVlODQ3Nzc5MDhiZGNjM2RhMTdjZGJiMDc1NGRhM2FkNzhkNGE5ZDcyMjUxMGUyMDZlYzU0NDY3N2I2NmFlMTA5YTFmYWExNjc=",
+    "embeddableLaunchScript": false,
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "clientFramework": "angularX",
+    "clientTheme": "none",
+    "clientThemeVariant": "",
+    "creationTimestamp": 1606988689436,
+    "testFrameworks": ["protractor"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "fr",
+    "languages": ["fr"],
+    "blueprints": []
+  }
+}
