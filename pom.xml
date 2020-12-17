@@ -18,12 +18,6 @@
     </pluginRepositories>
 
     <!-- jhipster-needle-distribution-management -->
-
-    <properties>
-      <sonar.projectKey>gauthLCF94_projetBibliotheque_HA_LG</sonar.projectKey>
-      <sonar.organization>gauthlcf94</sonar.organization>
-      <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-    </properties>
     
     <properties>
         <!-- Build properties -->
@@ -92,6 +86,10 @@
         <junit.utReportFolder>${project.testresult.directory}/test</junit.utReportFolder>
         <junit.itReportFolder>${project.testresult.directory}/integrationTest</junit.itReportFolder>
         <!-- jhipster-needle-maven-property -->
+        
+        <sonar.projectKey>gauthLCF94_projetBibliotheque_HA_LG</sonar.projectKey>
+        <sonar.organization>gauthlcf94</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
     </properties>
 
     <dependencyManagement>
