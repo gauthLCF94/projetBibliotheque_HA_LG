@@ -1,6 +1,5 @@
 ## Authors
-HALLER Antoine
-LECOUFFE Gauthier
+HALLER Antoine, LECOUFFE Gauthier
 
 # projetBibliotheque_HA_LG
 
