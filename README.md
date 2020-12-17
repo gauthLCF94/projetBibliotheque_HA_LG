@@ -1,5 +1,6 @@
 ## Authors
-HALLER Antoine, LECOUFFE Gauthier
+HALLER Antoine : tâches.
+LECOUFFE Gauthier : tâches.
 
 # projetBibliotheque_HA_LG
 
