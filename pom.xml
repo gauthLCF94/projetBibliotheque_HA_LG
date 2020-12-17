@@ -13,6 +13,7 @@
         <!-- jhipster-needle-maven-repository -->
     </repositories>
 
+    
     <pluginRepositories>
         <!-- jhipster-needle-maven-plugin-repository -->
     </pluginRepositories>
