@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.thymeleaf.org" th:lang="${#locale.language}" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <link rel="icon" href="${baseUrl}/favicon.ico" />
+    <title>Page de recherche par thème</title>
+
+</head>
+<body>
+<div class="container">
+    <h1>Recherche par thème</h1>
+
+    <p>Thèmes:</p>
+
+    <div>
+        <input type="checkbox" id="t1" name="t1"
+                checked>
+        <label for="t1">Thème 1</label>
+    </div>
+    <div>
+        <input type="checkbox" id="t2" name="t2">
+        <label for="t2">Thème 2</label>
+    </div>
+    <div>
+        <input type="checkbox" id="t3" name="t3">
+        <label for="t3">Thème 3</label>
+    </div>
+    <div>
+        <input type="checkbox" id="t4" name="t4">
+        <label for="t4">Thème 4</label>
+    </div>
+    <div>
+        <input type="checkbox" id="t5" name="t5">
+        <label for="t5">Thème 5</label>
+    </div>
+
+    <div class="form-inputs">
+        <input class="btn" type="submit" value="Rechercher">
+      </div>
+
+    <div>
+        <h3>Liste des résultats</h3>
+        <p><a href="#">Titre 1</a><span> auteur, thème</span></p>
+        <p><a href="#">Titre 2</a><span> auteur, thème</span></p>
+        <p><a href="#">Titre 3</a><span> auteur, thème</span></p>
+        <p><a href="#">Titre 4</a><span> auteur, thème</span></p>
+    </div>
+
+</div>
+</body>
+</html>
+
+<style>
+
+    ::-moz-selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
+
+    ::selection {
+        background: #b3d4fc;
+        text-shadow: none;
+    }
+
+    html {
+        padding: 30px 10px;
+        font-size: 20px;
+        line-height: 1.4;
+        color: #737373;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+
+    html,
+    input {
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    body {
+        max-width: 1000px;
+        _width: 500px;
+        padding: 30px 20px 50px;
+        border: 1px solid #b3b3b3;
+        border-radius: 4px;
+        margin: 0 auto;
+        box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+        background: #fcfcfc;
+    }
+
+    h1 {
+        margin: 0 10px;
+        font-size: 50px;
+        text-align: center;
+    }
+
+    h1 span {
+        color: #bbb;
+    }
+
+    h3 {
+        margin: 1.5em 0 0.5em;
+    }
+
+    p {
+        margin: 1em 0;
+    }
+
+    ul {
+        padding: 0 0 0 40px;
+        margin: 1em 0;
+    }
+
+    .container {
+        max-width: 800px;
+        _width: 380px;
+        margin: 0 auto;
+    }
+</style>
