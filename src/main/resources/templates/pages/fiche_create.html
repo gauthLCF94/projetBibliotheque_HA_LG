@@ -4,40 +4,54 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <link rel="icon" href="${baseUrl}/favicon.ico" />
-    <title>Page de recherche</title>
+    <title>Page de création de fiche</title>
 
 </head>
 <body>
 <div class="container">
-    <h1>Page de recherche</h1>
+    <h1>Page de création de fiche</h1>
 
     <form action="" method="get" class="form">
         <div class="form-search">
-          <label for="name">Recherche: </label>
-          <input type="text" name="search" id="search" required>
+            <div class="champ">
+                <label for="title">Titre: </label>
+                <input type="text" name="title" id="title" required>
+            </div>
+            <div class="champ">
+                <label for="autor">Auteur: </label>
+                <input type="text" name="autor" id="autor" required>
+            </div>
+            <div class="champ">
+                <label for="theme">Thème: </label>
+                <input type="text" name="theme" id="theme" required>
+            </div>
+            <div class="champ">
+                <label for="ISBN">ISBN: </label>
+                <input type="text" name="ISBN" id="ISBN" required>
+            </div>
         </div>
 
         <div class="form-radio">
             <div>
-                <input type="radio" id="autor" value="autor" name="choice"
-                    checked>
-                <label for="autor">Auteur</label>
+                <input type="radio" id="b1" value="b1" name="b" checked>
+                <label for="b1">Bibliothèque 1</label>
             </div>
             
             <div>
-                <input type="radio" id="theme" value="theme" name="choice">
-                <label for="theme">Thème</label>
+                <input type="radio" id="b2" value="b2" name="b">
+                <label for="b2">Bibliothèque 2</label>
             </div>
             
             <div>
-                <input type="radio" id="title" value="title" name="choice">
-                <label for="title">Titre</label>
+                <input type="radio" id="b3" value="b3" name="b">
+                <label for="b3">Bibliothèque 3</label>
             </div>
         </div>
 
         <div class="form-inputs">
           <input class="btn" type="submit" value="Valider">
-          <input class="btn" type="reset" value="Effacer">
+          <input class="btn" type="reset" value="Effacer toutes les données">
+          <button class="btn">Retour</button>
         </div>
     </form>
 
@@ -46,7 +60,7 @@
 </html>
 
 <style>
-    .form-search, .form-inputs, .form-radio{
+    .champ, .form-inputs{
         display: flex;
         justify-content: center;
         margin: 20px 0 20px 0;
